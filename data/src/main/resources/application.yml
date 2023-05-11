@@ -1,0 +1,15 @@
+server:
+  port: 8084
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: data
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: cbrViewer
+      port: 27017
+      host: localhost
